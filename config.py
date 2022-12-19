@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-    USER = os.environ.get("INSTAGRAM_USERNAME", "")
-    OWNER = os.environ.get("OWNER_ID", "")
-    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
+    API_ID = int(os.environ.get("API_ID", "15882573"))
+    API_HASH = os.environ.get("API_HASH", "dddd64edfc5326e4a35e448347b83e2d")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5237668676:AAFyjlUtTi7udmNIu-gPmaEQZGY5vaQJepM") 
+    USER = os.environ.get("INSTAGRAM_USERNAME", "ileanakavali")
+    OWNER = os.environ.get("OWNER_ID", "2094128105")
+    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", "BQACAgQAAxkDAAIkWGOf_EEO5zwrpjLMXD7OL_1pmnbFAAI3DwACGUwAAVFSI_rOLkmbXR4E")
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
